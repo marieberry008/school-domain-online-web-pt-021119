@@ -3,7 +3,7 @@ class School
   
   def initialize(name)
     @name = name
-    @roster = {}
+    @roster = []
   end 
   
   def add_student(student, level)
@@ -28,5 +28,3 @@ class School
   end 
   
 end
-
-school = School.new("Bayside High School")
